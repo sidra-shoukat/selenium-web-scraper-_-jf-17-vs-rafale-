@@ -16,10 +16,22 @@ This project is a simple **Selenium-based web scraping script** that extracts hy
 - Selenium
 - Chrome WebDriver
 
+📍 Target Article
+Pakistan’s JF-17 Shoots Down Six Rafale Fighters
+https://www.eurasiantimes.com/pakistans-jf-17-shoots-down-six-rafale-fighters-during-turkish/
+
+⚠️ Notes & Best Practices
+- Make sure your ChromeDriver version matches your Chrome browser.
+- Add delays (time.sleep) or explicit waits if elements load slowly.
+- Avoid running in headless mode if you encounter CAPTCHA.
+- Always respect a site’s robots.txt and Terms of Service.
+
 ## ▶️ How to Run
 
 1. Install dependencies:
    ```bash
    pip install selenium
-
+🧾 Check the outputs in the project folder:
+- links.txt — all extracted hyperlinks
+- img.png — screenshot of the article
 
